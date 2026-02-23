@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>DesignHub - Recursos UI/UX Curados para Designers e Desenvolvedores</title>
+  <meta name="title" content="DesignHub - Recursos UI/UX Curados para Designers e Desenvolvedores">
+  <meta name="description" content="Descubra 80+ recursos de design selecionados incluindo frameworks de UI, ferramentas de design, paletas de cores, ícones e plataformas de inspiração. Tudo que designers e desenvolvedores precisam em um só lugar.">
+  <meta name="keywords" content="UI resources, UX resources, design systems, CSS frameworks, design tools, Figma, Bootstrap, Material Design, color palettes, icons, design inspiration, prototyping tools, collaboration tools, web design, mobile design">
+  <meta name="author" content="Gabriel Augusto">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="Portuguese">
+  <meta name="revisit-after" content="7 days">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://designhub.resources/">
+  <meta property="og:title" content="DesignHub - Curated UI/UX Resources for Designers & Developers">
+  <meta property="og:description" content="Discover 80+ hand-picked design resources including UI frameworks, design tools, color palettes, icons, and inspiration platforms. Everything designers and developers need in one place.">
+  <meta property="og:image" content="https://designhub.resources/og-image.png">
+  <meta property="og:site_name" content="DesignHub">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://designhub.resources/">
+  <meta property="twitter:title" content="DesignHub - Curated UI/UX Resources for Designers & Developers">
+  <meta property="twitter:description" content="Discover 80+ hand-picked design resources including UI frameworks, design tools, color palettes, icons, and inspiration platforms.">
+  <meta property="twitter:image" content="https://designhub.resources/twitter-image.png">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://designhub.resources/">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#007BFF">
+  <meta name="msapplication-TileColor" content="#007BFF">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="DesignHub" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "DesignHub",
+    "description": "Curated collection of UI/UX resources for designers and developers",
+    "url": "https://designhub.resources/",
+    "author": {
+      "@type": "Person",
+      "name": "Gabriel Augusto"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "DesignHub",
+      "url": "https://designhub.resources/"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://designhub.resources/?search={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "UI Design"
+      },
+      {
+        "@type": "Thing",
+        "name": "UX Design"
+      },
+      {
+        "@type": "Thing",
+        "name": "Web Development"
+      },
+      {
+        "@type": "Thing",
+        "name": "Design Tools"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <header role="banner">
+    <div class="header-content">
+      <div class="header-main">
+        <h1>DesignHub</h1>
+        <p class="tagline">Recursos UI/UX Curados para Designers e Desenvolvedores</p>
+      </div>
+      <button id="lang-toggle" class="lang-toggle" onclick="switchLanguage()" aria-label="Idioma">
+        PT
+      </button>
+    </div>
+  </header>
+
+  <main role="main">
+    <section id="search-container" aria-label="Buscar recursos">
+      <label for="search" class="visually-hidden">Buscar recursos de design</label>
+      <input type="text" id="search" placeholder="Buscar recursos..." aria-label="Buscar recursos de design" autocomplete="off">
+    </section>
+
+    <section id="resources" aria-label="Coleção de recursos de design">
+      <div class="loading" aria-live="polite">Carregando recursos de design...</div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; 2024 DesignHub. Curado por <a href="#" rel="author">Gabriel Augusto</a>. Todos os recursos pertencem aos seus respectivos proprietários.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
